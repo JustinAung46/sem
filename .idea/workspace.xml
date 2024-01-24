@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="Starting docker.">
-      <changelist_data name="Htoi San Aung" email="justincoffee46@gmail.com" />
+    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="change version in main.yml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +125,7 @@
       <workItem from="1705997107193" duration="499000" />
       <workItem from="1705997614037" duration="1129000" />
       <workItem from="1705998750292" duration="1120000" />
-      <workItem from="1706071175911" duration="32000" />
+      <workItem from="1706071175911" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <option name="closed" value="true" />
@@ -152,18 +151,47 @@
       <option name="project" value="LOCAL" />
       <updated>1705999131903</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testing workflow.">
+      <option name="closed" value="true" />
+      <created>1706071272590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706071272590</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change version in main.yml">
+      <option name="closed" value="true" />
+      <created>1706072098932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706072098932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="First commit, adding initial files." />
     <MESSAGE value="Added Hello World." />
     <MESSAGE value="Starting docker." />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting docker." />
+    <MESSAGE value="Testing workflow." />
+    <MESSAGE value="change version in main.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="change version in main.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
