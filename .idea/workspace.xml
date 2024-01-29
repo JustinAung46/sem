@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="Updating our system.">
+    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="correct mainyml file.">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/test_db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +35,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -68,14 +72,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
-    "Docker.Docker Image (1).executor": "Run",
-    "Docker.Docker Image.executor": "Run",
     "Docker.Dockerfile.executor": "Run",
     "Docker.Unnamed.executor": "Run",
-    "Maven.seMethods [package].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/mongo-intergration",
+    "git-widget-placeholder": "feature/view-record",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/justin/IdeaProjects/seMethods",
     "node.js.detected.package.eslint": "true",
@@ -87,42 +88,17 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "Docker",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.Docker Image">
-    <configuration name="Docker Image (1)" type="docker-deploy" factoryName="docker-image" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="mongo:latest" />
-          <option name="containerName" value="mongo-dbserver" />
-          <option name="commandLineOptions" value="--network se-methods" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
-      <deployment type="docker-image">
-        <settings>
-          <option name="imageTag" value="sha256:9027b7414489889294832d5a362b39259721ceb613b2f73ea98b84f46d004629" />
-          <option name="containerName" value="" />
-          <option name="commandLineOptions" value="--network se-methods" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Docker.db/SQLDockerFile">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
-      <deployment type="docker-image" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
@@ -131,12 +107,17 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="db/SQLDockerFile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="db/SQLDockerFile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.db/SQLDockerFile" />
         <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
@@ -161,7 +142,8 @@
       <workItem from="1705997614037" duration="1129000" />
       <workItem from="1705998750292" duration="1120000" />
       <workItem from="1706071175911" duration="1325000" />
-      <workItem from="1706156932901" duration="3988000" />
+      <workItem from="1706269858804" duration="597000" />
+      <workItem from="1706364570445" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <option name="closed" value="true" />
@@ -203,39 +185,7 @@
       <option name="project" value="LOCAL" />
       <updated>1706072098932</updated>
     </task>
-    <task id="LOCAL-00006" summary="Adding MongoDB.">
-      <option name="closed" value="true" />
-      <created>1706156716404</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1706156716404</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Update app.js.">
-      <option name="closed" value="true" />
-      <created>1706156738626</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1706156738626</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Single JAR.">
-      <option name="closed" value="true" />
-      <created>1706157560707</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1706157560707</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Updating our system.">
-      <option name="closed" value="true" />
-      <created>1706160011256</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1706160011256</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,11 +209,7 @@
     <MESSAGE value="Starting docker." />
     <MESSAGE value="Testing workflow." />
     <MESSAGE value="change version in main.yml" />
-    <MESSAGE value="Adding MongoDB." />
-    <MESSAGE value="Update app.js." />
-    <MESSAGE value="Single JAR." />
-    <MESSAGE value="Updating our system." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating our system." />
+    <option name="LAST_COMMIT_MESSAGE" value="change version in main.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
