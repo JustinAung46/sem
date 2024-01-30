@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="change version in main.yml">
+    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="view employee record.">
+      <changelist_data name="Htoi San Aung" email="justincoffee46@gmail.com" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,11 @@
         <option value="Htoi San Aung" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
@@ -43,6 +51,9 @@
         <option name="url" value="https://github.com/JustinAung46/sem" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -67,9 +78,13 @@
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
     &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Docker.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.db/Dockerfile: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.db/SQLDockerFile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.seMethods [package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/view-record&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/justin/IdeaProjects/seMethods&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -85,12 +100,32 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
       </deployment>
       <method v="2" />
     </configuration>
@@ -100,8 +135,27 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="db/Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="db/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.db/Dockerfile: Compose Deployment" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
@@ -126,6 +180,9 @@
       <workItem from="1705997614037" duration="1129000" />
       <workItem from="1705998750292" duration="1120000" />
       <workItem from="1706071175911" duration="1325000" />
+      <workItem from="1706269858804" duration="597000" />
+      <workItem from="1706364570445" duration="12368000" />
+      <workItem from="1706588091492" duration="6053000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <option name="closed" value="true" />
@@ -167,7 +224,63 @@
       <option name="project" value="LOCAL" />
       <updated>1706072098932</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="SQL docker.">
+      <option name="closed" value="true" />
+      <created>1706515765484</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706515765484</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Adding docker-compose.yml.">
+      <option name="closed" value="true" />
+      <created>1706544848841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706544848841</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Test MYSQL connection.">
+      <option name="closed" value="true" />
+      <created>1706546756942</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706546756942</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update main.yml">
+      <option name="closed" value="true" />
+      <created>1706547970038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706547970038</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Change main.java">
+      <option name="closed" value="true" />
+      <created>1706549787655</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706549787655</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add employee.java">
+      <option name="closed" value="true" />
+      <created>1706549970759</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706549970759</updated>
+    </task>
+    <task id="LOCAL-00012" summary="view employee record.">
+      <option name="closed" value="true" />
+      <created>1706600284153</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706600284153</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,17 +304,13 @@
     <MESSAGE value="Starting docker." />
     <MESSAGE value="Testing workflow." />
     <MESSAGE value="change version in main.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="change version in main.yml" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="SQL docker." />
+    <MESSAGE value="Adding docker-compose.yml." />
+    <MESSAGE value="Test MYSQL connection." />
+    <MESSAGE value="update main.yml" />
+    <MESSAGE value="Change main.java" />
+    <MESSAGE value="Add employee.java" />
+    <MESSAGE value="view employee record." />
+    <option name="LAST_COMMIT_MESSAGE" value="view employee record." />
   </component>
 </project>
