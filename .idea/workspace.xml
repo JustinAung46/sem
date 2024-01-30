@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="Add employee.java">
+    <list default="true" id="cf50bf70-e59a-4b56-be91-ff9afab537a6" name="Changes" comment="view employee record.">
+      <changelist_data name="Htoi San Aung" email="justincoffee46@gmail.com" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
@@ -181,7 +182,7 @@
       <workItem from="1706071175911" duration="1325000" />
       <workItem from="1706269858804" duration="597000" />
       <workItem from="1706364570445" duration="12368000" />
-      <workItem from="1706588091492" duration="5739000" />
+      <workItem from="1706588091492" duration="6053000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <option name="closed" value="true" />
@@ -271,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706549970759</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="view employee record.">
+      <option name="closed" value="true" />
+      <created>1706600284153</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706600284153</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +310,7 @@
     <MESSAGE value="update main.yml" />
     <MESSAGE value="Change main.java" />
     <MESSAGE value="Add employee.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add employee.java" />
+    <MESSAGE value="view employee record." />
+    <option name="LAST_COMMIT_MESSAGE" value="view employee record." />
   </component>
 </project>
