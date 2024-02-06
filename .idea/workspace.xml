@@ -8,8 +8,8 @@
       <changelist_data name="Htoi San Aung" email="justincoffee46@gmail.com" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +84,9 @@
     &quot;Maven.seMethods [package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/view-record&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/justin/IdeaProjects/seMethods&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/justin/IdeaProjects/sem&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -98,9 +98,14 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -117,7 +122,6 @@
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
-          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -153,9 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile: Compose Deployment" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
@@ -163,6 +167,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
         <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24582b8d" />
       </set>
     </attachedChunks>
@@ -183,6 +188,12 @@
       <workItem from="1706269858804" duration="597000" />
       <workItem from="1706364570445" duration="12368000" />
       <workItem from="1706588091492" duration="6053000" />
+      <workItem from="1706686711392" duration="273000" />
+      <workItem from="1706686994054" duration="224000" />
+      <workItem from="1706687257883" duration="4691000" />
+      <workItem from="1706725084093" duration="15000" />
+      <workItem from="1706731597633" duration="878000" />
+      <workItem from="1706773628103" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files.">
       <option name="closed" value="true" />
@@ -298,6 +309,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/db/test_db" />
+    </ignored-roots>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="First commit, adding initial files." />
     <MESSAGE value="Added Hello World." />
@@ -312,5 +326,9 @@
     <MESSAGE value="Add employee.java" />
     <MESSAGE value="view employee record." />
     <option name="LAST_COMMIT_MESSAGE" value="view employee record." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
